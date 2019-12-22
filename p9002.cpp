@@ -8,7 +8,6 @@ int co(int il){
     for(int jl = n-1;jl>=n-il+1;--jl)
         sl = (sl*jl)/(n-jl+1);
     return sl;
-
 }
 int main(){
     s=n+1;
