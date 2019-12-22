@@ -2,7 +2,8 @@
 using namespace std;
 int f,a[9];
 int main(){
-    for(int i=1;i<8;i++){
+    int i=1;
+    for(i<8;i++;){
         f=i%2;
         if(f==0)a[i]=0;
         else a[i]=1;
