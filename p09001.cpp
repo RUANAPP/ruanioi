@@ -9,6 +9,7 @@ int main(int argc, char const *argv[])
     int i;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     for(=1;i<=10;++i)cin>>a[i];
 =======
     for( i=1;i<=10;++i)cin>>a[i];
@@ -16,6 +17,9 @@ int main(int argc, char const *argv[])
 =======
     for( i=1;i<=10;++i)cin>>a[i];
 >>>>>>> 3b7495dfab4ebddc355df5b58e632c2b45b9d7b7
+=======
+    for( i=1;i<=10;++i)cin>>a[i];
+>>>>>>> b20c1cb6e3aecec3c70928f7dfb9b1a25e803691
     maxx=a[1];s=a[1];
     for(int i=2;i<=10;++i){
         if(s<0)s=0;
