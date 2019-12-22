@@ -6,8 +6,7 @@ int s,maxx;
 int a[11];
 int main(int argc, char const *argv[])
 {
-    int i;
-    for(i=1;i<=10;++i)cin>>a[i];
+    for(int i=1;i<=10;++i)cin>>a[i];
     maxx=a[1];s=a[1];
     for(int i=2;i<=10;++i){
         if(s<0)s=0;
