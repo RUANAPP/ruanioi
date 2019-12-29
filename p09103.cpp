@@ -1,12 +1,15 @@
-#include<cstdio>
+#include <cstdio>
 using namespace std;
-inline int fun(int x){
-    if(x==0||x==1)return 3;
-    else return x-fun(x-2);
-}
-    int main(int argc, char const *argv[])
+inline int fun(int x)
 {
-    printf("%d",fun(9));
+    if (x == 0 || x == 1)
+        return 3;
+    else
+        return x - fun(x - 2);
+}
+int main(int argc, char const *argv[])
+{
+    printf("%d", fun(9));
     putchar('\n');
-    return 0;
+    return  0;
 }
