@@ -1,3 +1,4 @@
+//ruandongruandongruandong--
 #include<cstdio>
 using namespace std;
 int f,a[9];

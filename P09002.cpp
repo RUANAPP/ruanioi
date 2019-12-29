@@ -3,6 +3,7 @@
 using namespace std;
 const int n=10;
 int s;
+//ruandongruandongruandong--
 int co(int il)
 {
     int jl,sl;

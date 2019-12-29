@@ -2,6 +2,7 @@
 #include<cstdio>
 #include<cmath>
 using namespace std;
+//ruandongruandongruandong--
 int s,maxx;
 int a[11];
 int main(int argc, char const *argv[])
