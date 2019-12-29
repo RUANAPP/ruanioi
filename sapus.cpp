@@ -10,6 +10,8 @@ int main(){
     cout<<M<<M<<M<<M<<M<<endl;
     cout<<" "<<M<<M<<M<<endl;
     cout<<"  "<<M<<endl;
+    cout<<"     "<<"X"<<"              "<<"X"<<endl;
+    cout<<"     "<<M<<M<<M<<M<<M<<M<<M<<M<<M<<M<<M<<M<<M<<M<<M<<M<<endl;
     cout<<"__________";
     return 0;
 }
